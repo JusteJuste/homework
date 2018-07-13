@@ -1,0 +1,67 @@
+/*ka itakoja duotas puslapio plotis?*/
+header {background-color: #505050;
+	height: 50px;
+	}
+img.logo {height: 25px;
+	width: 70px;
+	margin-left: 450px;/*o gal naudoti padding, ar float?*/
+	margin-top: 15px;
+}
+nav{float: right;
+	margin-right: 450px;	
+}
+li{	list-style: none; /*ar rasyt "nav li"?*/
+	display: inline;
+	margin-left: 10px;
+	
+}
+.clearfix{
+    clear: both; /*kur kurt div? nesuprantu su clearfix*/
+}
+a {color: white; /*kaip padaryt kad nebutu pabraukti home/about/cont?*/
+}
+ div.section1 {background-color: LightGray;
+	height: 400px;
+	padding: 50px 0px 50px 0px;
+ }
+ h1 {text-align: center;
+	margin-top: 20px;
+	}
+p.moreaboutus {background-color: black; /*ar naudoti cia "p"?*/
+	color: white;
+	width: 100px;
+	padding: 10px;
+	margin: 270px auto;
+	}
+div.section2 {height: 400px;
+	padding: 50px 0px 50px 0px;	
+	margin: 10px 450px 10px 450px;
+}
+h3.aboutus {text-align: right;
+}
+p.text {text-align: justify;
+}
+div.section3 {background-color: #F0FFFF;
+	height: 400px;
+	padding: 50px 0px 50px 0px;
+}
+.contactus {margin-left: 450px;
+}
+img.sofa {height: 250px;
+	width: 300px;
+	margin-left: 450px;
+}
+footer {background-color: black;
+	height: 50px;
+}
+p.allrights {color: white;
+	font-style: italic;
+	text-align: center;
+	margin-top: 0px;
+	padding: 10px;
+	/* kaip reikejo teisingai centruoti? */
+}
+
+
+
+
